@@ -1,0 +1,40 @@
+{
+  "name": "koishi-plugin-openai-customapi",
+  "description": "openai-api 问答插件(自定义url)",
+  "version": "1.1.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "author": "KirosHan",
+  "contributors": [
+    "KirosHan",
+    "yi03"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "homepage": "https://github.com/KirosHan/koishi-plugin-openai-customapi",
+  "repository": {
+  "type": "git",
+  "url": "git+https://github.com/KirosHan/koishi-plugin-openai-customapi.git"
+},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "gpt",
+    "openai"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "koishi": "^4.11.3",
+    "typescript": "^4.9.4"
+  }
+}
