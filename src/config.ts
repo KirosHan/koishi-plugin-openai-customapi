@@ -24,7 +24,12 @@ export const Config: Schema<Config> = Schema.intersect([
         api_key: Schema.string().required().role('secret').description('OpenAI 的 API Key'),
         model: Schema.union([
             'gpt-3.5-turbo',
-            'gpt-3.5-turbo-0301',
+            'gpt-3.5-turbo-0613',
+            'gpt-3.5-turbo-16k',
+            'gpt-3.5-turbo-1106',
+            'gpt-4',
+            'gpt-4-1106-preview',
+            'gpt4-turbo'
         ]).description('OpenAI 的语言模型，默认使用gpt-3.5-turbo')
             .default('gpt-3.5-turbo'),
     }).description("OpenAI 配置"),

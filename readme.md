@@ -28,8 +28,10 @@ openai自带的洗脑很强，所以设定人格需要一些技巧。
 每个账号的设定和记忆是独立的。
 
 
-# 使用cloudflare转发openai(此方法不需代理即可调用官方API，免费，但需有自己的域名)
+
+# API使用方法
+### 使用cloudflare转发openai(此方法不需代理即可调用官方API，免费，但需有自己的域名)
 [https://zhuanlan.zhihu.com/p/650904106]（https://zhuanlan.zhihu.com/p/650904106）
 
-# 使用第三方API需保证请求数据格式与官方API相同
+### 使用第三方API需保证请求数据格式与官方API相同
 [openai官方文档](https://platform.openai.com/docs/api-reference/chat)
